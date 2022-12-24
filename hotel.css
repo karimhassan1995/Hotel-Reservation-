@@ -1,0 +1,290 @@
+.body-container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+.header-image {
+    width: 151px;
+    height: 101px;
+}
+
+.header-paragraph{
+    color: #957554;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-paragraph{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navigation {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input {
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+
+.input4 {
+    background-color: #DFAA5B;
+    padding: 10px 20px;
+    color:white;
+}
+
+.big-image {
+   
+    background-image: url(./hDbCjHNdF48.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    /* width: 100%; */
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* مهم جدا لانك تضطر تستنترها تبعا لحجم الصورة و ممكن تجرب بالانسبكت قبل وبعد ما تحط السطر ده */
+}
+
+.image-button {
+    background-color: #DFAA5B;
+    border: none;
+    padding: 25px 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.greeting{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.statement{
+    color: white;
+    margin-top: 0px;}
+
+.title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #957554;
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 0px;
+        font-style: Medium;
+        font-size: 45px;
+}
+
+.facilities{
+ 
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 53px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    width: 50px;
+    height: 50px;
+}
+
+.img2{
+    width: 50px;
+    height: 25px;
+    margin-top: 10px ;
+}
+
+.img0{
+    width: 10px;
+}
+
+.rooms{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-around;
+    margin-top: 53PX;
+}
+
+.room1 {
+    background-image: url(./w1RE0lBbREo.png);
+    width: 45%;
+    height: 250px;
+    margin-bottom: 50px;
+    background-size: cover;
+    /*   ده المفروض تكون background-size: 480px 250px;  */
+    /* بس ده ممكن يسبب مشكلة لما تيجي تتحط على شاشة تانية فعشان كده نخليها
+     كوفر و العميل هو المطالب انه يجيب صوؤة مضبوطه */
+}
+
+
+.room2 {
+    background-image: url(./aRT5UCf2MYY.png);
+    width: 45%;
+    height: 250px;
+    margin-bottom: 50px;
+    background-size: cover;
+}
+
+.room3 {
+    background-image: url(./FqqiAvJejto.png);
+    width: 45%;
+    height: 250px;
+    margin-bottom: 50px;
+    background-size: cover;
+}
+
+.room4 {
+    background-image: url(./GqbU78bdJFM.png);
+    width: 45%;
+    height: 250px;
+    margin-bottom: 50px;
+    background-size: cover;
+}
+
+.room{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150%; 
+}
+
+.room-title{
+    color: white;
+}
+
+.room-button{
+    color:white;
+    background-color: #DFAA5B;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+    font-size: 15px;
+    font-style: medium;
+}
+
+.booknow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booknow-button{
+    color:white;
+    background-color: #DFAA5B;
+    margin-top: 38px;
+    border-radius: 10px;
+    padding: 24px 140px;
+    border: none;
+    font-size: 15px;
+}
+
+.footer{
+    background-color:black;
+    margin-top: 60px;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 55px;
+    margin-bottom: 130px;
+    margin-top: 60px;
+}
+
+.center-section{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150%;
+    margin-top: 60px;
+}
+
+.right-section{
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end;  */
+    margin-right: 70px;
+    margin-top: 60px;
+    /* width: 100%; */
+    
+}
+
+.footer-black{
+    display: flex;
+    width: 100%;
+}
+
+.left-img{
+    margin-bottom: 70px;
+}
+
+.subscribe-button{
+    color:white;
+    background-color: #DFAA5B; 
+    border-radius: 10px;
+    width: 250px ;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.subscribe-input{
+    border-radius: 10px;
+    width: 230px ;
+    height: 50px;
+    /* width: 25%; */
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+
+.subscribe-title{
+    color:white;
+    font-style: Medium;
+    font-size: 30px;
+    margin-bottom: 0px;
+    
+}
+
+.Ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
